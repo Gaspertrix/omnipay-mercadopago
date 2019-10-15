@@ -1,0 +1,37 @@
+{
+    "name": "gaspertrix/omnipay-mercadopago",
+    "type": "library",
+    "description": "MercadoPago gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "mercadopago",
+        "purchase"
+    ],
+    "homepage": "https://github.com/Gaspertrix/omnipay-mercadopago",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Sacchi",
+            "email": "adrian@gaspertrix.com",
+            "homepage": "https://www.gaspertrix.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\MercadoPago\\" : "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "^3",
+        "mercadopago/dx-php": "^1.5"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3"
+    },
+    "prefer-stable": true
+}
